@@ -1,0 +1,19 @@
+# Avyanco Auditing - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://avyanco.net/sitemap.xml
+
+# Delay between requests (in seconds)
+Crawl-delay: 1
+
+# Block specific bots if needed
+User-agent: MJ12bot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
