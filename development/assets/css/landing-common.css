@@ -207,9 +207,23 @@ p{
   transform:translateY(-4px);
   box-shadow:0 18px 36px rgba(3,7,18,.10)
 }
+.service .sicon{
+  width:56px;
+  height:56px;
+  flex:0 0 56px;
+  display:grid;
+  place-items:center
+}
+.service .sicon img{
+  width:56px;
+  height:56px;
+  object-fit:contain;
+  display:block
+}
 #services .sicon{
-  width:55px;
-  padding-bottom:19px
+  width:56px;
+  height:56px;
+  padding-bottom:0
 }
 .mini{
   font-size:13px !important
@@ -884,8 +898,9 @@ p{
   border-radius:14px
 }
 .card.service .sicon img{
-  width:70px;
-  height:auto;
+  width:56px;
+  height:56px;
+  object-fit:contain;
   margin-bottom:10px
 }
 .card.service b{
@@ -914,8 +929,9 @@ p{
   flex-shrink:0
 }
 .card.service .sicon img{
-  width:60px;
-  height:auto
+  width:56px;
+  height:56px;
+  object-fit:contain
 }
 .card.service b{
   display:block;
