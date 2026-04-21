@@ -1,19 +1,17 @@
 # Avyanco Auditing - robots.txt
+# Google Ads review bots are allowed to crawl landing pages.
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+# Search indexing is controlled at page level with noindex meta tags.
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://avyanco.net/sitemap.xml
-
-# Delay between requests (in seconds)
 Crawl-delay: 1
-
-# Block specific bots if needed
-User-agent: MJ12bot
-Allow: /
-
-User-agent: AhrefsBot
-Allow: /
-
-User-agent: SemrushBot
-Allow: /
